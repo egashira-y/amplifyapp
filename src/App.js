@@ -6,9 +6,9 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>We now have Auth</h1>
+        <h1>We now have Auth!</h1>
       </header>
       <AmplifySignOut />
     </div>
